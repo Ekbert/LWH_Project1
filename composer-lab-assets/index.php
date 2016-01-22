@@ -101,7 +101,7 @@ try {
                 <p><?=mb_substr($row->content, 0, 130, "utf-8"),'…'?></p>
                 <p class="text-right">
                     <span class="glyphicon glyphicon-time"></span>
-                    發表於 <?=$row->created_at?>
+                    發表於::::: <?=$row->created_at?>
                 </p>
             </div>
             <?php endwhile; ?>
