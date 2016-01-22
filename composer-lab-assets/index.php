@@ -2,6 +2,8 @@
 
 require __DIR__.'/bootstrap.php';
 
+// 引入carbon
+require '../vendor/autoload.php';
 \Carbon\Carbon::setLocale('zh');
 use Carbon\Carbon;
 
@@ -106,7 +108,7 @@ try {
                 <p class="text-right">
                     <span class="glyphicon glyphicon-time"></span>
                     <!--發表於::::: <?=$row->created_at?> -->
-                    發表於::::: <?=Carbon::createFromFormat('Y-m-d h:i:s', $row->created_at)->diffForHumans()?>
+                    發表於::::: <?php echo Carbon::createFromFormat('Y-m-d h:i:s', $row->created_at)->diffForHumans()?>
                 </p>
             </div>
             <?php endwhile; ?>
