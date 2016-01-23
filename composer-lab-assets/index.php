@@ -65,13 +65,13 @@ try {
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="http://www.laravel-dojo.com/about/dojo" target="_blank">1關於道場</a>
+                        <a href="http://www.laravel-dojo.com/about/dojo" target="_blank">31關於道場</a>
                     </li>
                     <li>
-                        <a href="http://www.laravel-dojo.com/workshops" target="_blank">2工作坊</a>
+                        <a href="http://www.laravel-dojo.com/workshops" target="_blank">22工作坊</a>
                     </li>
                     <li>
-                        <a href="http://www.laravel-dojo.com/contact" target="_blank">3聯絡我們</a>
+                        <a href="http://www.laravel-dojo.com/contact" target="_blank">13聯絡我們</a>
                     </li>
                 </ul>
             </div>
