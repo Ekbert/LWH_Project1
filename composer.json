@@ -1,0 +1,13 @@
+{
+    "name": "root/lwh_project1",
+    "authors": [
+        {
+            "name": "Egbert",
+            "email": "49943105@gm.nfu.edu.tw"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.17",
+        "nesbot/carbon": "^1.21"
+    }
+}
